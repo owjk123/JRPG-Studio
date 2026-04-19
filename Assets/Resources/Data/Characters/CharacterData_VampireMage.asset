@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf61f55d74274d34eb5f65ffd4c0588b, type: 3}
+  m_Name: CharacterData_VampireMage
+  m_EditorClassIdentifier: 
+  characterId: 1002
+  characterName: "\u83B1\u7C73\u4E9A"
+  title: "\u6B53\u9ECE\u7384\u9F99"
+  description: "\u540D\u95E8\u4E4B\u540E\u300A\u6697\u9ED1\u4E66\u76EE\u300B\u7684\u63A2\u6C42\u8005\uFF0C\u4E8E\u8D2B\u4E4E\u4E2D\u53D1\u73B0\u4E86\u5434\u7FBD\u9F99\u7684\u79D8\u5BC6\u3002\u5C5E\u4E8E\u5434\u7FBD\u9F99\u76F4\u7CFB\uFF0C\u662F\u5434\u7FBD\u9F99\u738B\u671D\u7684\u517D\u9053\u516C\u4E3B\u3002"
+  rarity: 3
+  race: 2
+  element: 4
+  role: 0
+  weaponType: 2
+  maxLevel: 100
+  baseHp: 850
+  hpGrowth: 1.15
+  baseAtk: 150
+  atkGrowth: 1.22
+  baseDef: 45
+  defGrowth: 1.12
+  baseSpeed: 95
+  baseCritRate: 0.08
+  baseCritDamage: 1.6
+  baseMaxMp: 150
+  maxUltimateEnergy: 100
+  portrait: {fileID: 0}
+  battleModel: {fileID: 0}
+  chibiModel: {fileID: 0}
+  voiceLines: []
+  battleVoices:
+    battleStart: {fileID: 0}
+    skillUse: {fileID: 0}
+    ultimateUse: {fileID: 0}
+    damage: {fileID: 0}
+    victory: {fileID: 0}
+    defeat: {fileID: 0}

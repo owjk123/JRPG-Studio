@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  defaultBGMVolume: 0.7
+  defaultSFXVolume: 0.8
+  defaultVoiceVolume: 1
+  defaultAmbientVolume: 0.5
+  mainMenuBGM: "Audio/BGM/MainMenu/MainMenu"
+  battleNormalBGM: "Audio/BGM/Battle/BattleNormal"
+  battleEliteBGM: "Audio/BGM/Battle/BattleElite"
+  battleBossBGM: "Audio/BGM/Battle/BattleBoss"
+  victoryBGM: "Audio/BGM/Battle/Victory"
+  defeatBGM: "Audio/BGM/Battle/Defeat"
+  townBGM: "Audio/BGM/Town/Town"
+  fieldBGM: "Audio/BGM/Field/Field"
+  dungeonBGM: "Audio/BGM/Dungeon/Dungeon"
+  shopBGM: "Audio/BGM/Shop/Shop"
+  gachaBGM: "Audio/BGM/Gacha/Gacha"
+  gachaResultBGM: "Audio/BGM/Gacha/GachaResult"
+  bgmEntries:
+  - sceneName: "MainMenu"
+    bgmPath: "Audio/BGM/MainMenu/MainMenu"
+    loop: 1
+  - sceneName: "Battle"
+    bgmPath: "Audio/BGM/Battle/BattleNormal"
+    loop: 1
+  - sceneName: "BossBattle"
+    bgmPath: "Audio/BGM/Battle/BattleBoss"
+    loop: 1
+  - sceneName: "Town"
+    bgmPath: "Audio/BGM/Town/Town"
+    loop: 1
+  attackSound: "Audio/SFX/Battle/Attack"
+  criticalAttackSound: "Audio/SFX/Battle/CriticalAttack"
+  skillCastSound: "Audio/SFX/Battle/SkillCast"
+  ultimateSkillSound: "Audio/SFX/Battle/UltimateSkill"
+  hitSound: "Audio/SFX/Battle/Hit"
+  dodgeSound: "Audio/SFX/Battle/Dodge"
+  blockSound: "Audio/SFX/Battle/Block"
+  counterSound: "Audio/SFX/Battle/Counter"
+  healSound: "Audio/SFX/Battle/Heal"
+  shieldSound: "Audio/SFX/Battle/Shield"
+  reviveSound: "Audio/SFX/Battle/Revive"
+  buffSound: "Audio/SFX/Battle/Buff"
+  debuffSound: "Audio/SFX/Battle/Debuff"
+  stunSound: "Audio/SFX/Battle/Stun"
+  freezeSound: "Audio/SFX/Battle/Freeze"
+  useItemSound: "Audio/SFX/Battle/UseItem"
+  fleeSuccessSound: "Audio/SFX/Battle/FleeSuccess"
+  fleeFailSound: "Audio/SFX/Battle/FleeFail"
+  defendSound: "Audio/SFX/Battle/Defend"
+  deathSound: "Audio/SFX/Battle/Death"
+  enemyDeathSound: "Audio/SFX/Battle/EnemyDeath"
+  battleVictorySound: "Audio/SFX/Battle/Victory"
+  battleDefeatSound: "Audio/SFX/Battle/Defeat"
+  damageNumberSound: "Audio/SFX/Battle/DamageNumber"
+  criticalDamageSound: "Audio/SFX/Battle/CriticalDamage"
+  buttonClickSound: "Audio/SFX/UI/ButtonClick"
+  buttonHoverSound: "Audio/SFX/UI/ButtonHover"
+  confirmSound: "Audio/SFX/UI/Confirm"
+  cancelSound: "Audio/SFX/UI/Cancel"
+  errorSound: "Audio/SFX/UI/Error"
+  successSound: "Audio/SFX/UI/Success"
+  selectSound: "Audio/SFX/UI/Select"
+  tabSwitchSound: "Audio/SFX/UI/TabSwitch"
+  panelOpenSound: "Audio/SFX/UI/PanelOpen"
+  panelCloseSound: "Audio/SFX/UI/PanelClose"
+  popupSound: "Audio/SFX/UI/Popup"
+  levelUpSound: "Audio/SFX/UI/LevelUp"
+  breakthroughSound: "Audio/SFX/UI/Breakthrough"
+  obtainItemSound: "Audio/SFX/UI/ObtainItem"
+  obtainCharacterSound: "Audio/SFX/UI/ObtainCharacter"
+  equipChangeSound: "Audio/SFX/UI/EquipChange"
+  gachaStartSound: "Audio/SFX/Gacha/GachaStart"
+  gachaSingleSound: "Audio/SFX/Gacha/GachaSingle"
+  gachaMultiSound: "Audio/SFX/Gacha/GachaMulti"
+  gachaCommonSound: "Audio/SFX/Gacha/GachaCommon"
+  gachaRareSound: "Audio/SFX/Gacha/GachaRare"
+  gachaEpicSound: "Audio/SFX/Gacha/GachaEpic"
+  gachaLegendarySound: "Audio/SFX/Gacha/GachaLegendary"
+  gachaPitySound: "Audio/SFX/Gacha/GachaPity"
+  forestAmbient: "Audio/Ambient/Forest"
+  caveAmbient: "Audio/Ambient/Cave"
+  townAmbient: "Audio/Ambient/Town"
+  beachAmbient: "Audio/Ambient/Beach"
+  volcanoAmbient: "Audio/Ambient/Volcano"
+  snowAmbient: "Audio/Ambient/Snow"
+  rainAmbient: "Audio/Ambient/Rain"
+  nightAmbient: "Audio/Ambient/Night"
+  voiceEntries:
+  - characterId: 1001
+    characterName: "\u4E00\u9519\u5802"
+    attackVoice: "Audio/Voice/HumanKnight/Attack"
+    skillVoice: "Audio/Voice/HumanKnight/Skill"
+    ultimateVoice: "Audio/Voice/HumanKnight/Ultimate"
+    hurtVoice: "Audio/Voice/HumanKnight/Hurt"
+    deathVoice: "Audio/Voice/HumanKnight/Death"
+    victoryVoice: "Audio/Voice/HumanKnight/Victory"
+    idleVoice: "Audio/Voice/HumanKnight/Idle"
+  - characterId: 1002
+    characterName: "\u83B1\u7C73\u4E9A"
+    attackVoice: "Audio/Voice/VampireMage/Attack"
+    skillVoice: "Audio/Voice/VampireMage/Skill"
+    ultimateVoice: "Audio/Voice/VampireMage/Ultimate"
+    hurtVoice: "Audio/Voice/VampireMage/Hurt"
+    deathVoice: "Audio/Voice/VampireMage/Death"
+    victoryVoice: "Audio/Voice/VampireMage/Victory"
+    idleVoice: "Audio/Voice/VampireMage/Idle"
+  - characterId: 1003
+    characterName: "\u7C73\u52A0\u83B1"
+    attackVoice: "Audio/Voice/AngelArcher/Attack"
+    skillVoice: "Audio/Voice/AngelArcher/Skill"
+    ultimateVoice: "Audio/Voice/AngelArcher/Ultimate"
+    hurtVoice: "Audio/Voice/AngelArcher/Hurt"
+    deathVoice: "Audio/Voice/AngelArcher/Death"
+    victoryVoice: "Audio/Voice/AngelArcher/Victory"
+    idleVoice: "Audio/Voice/AngelArcher/Idle"
+  - characterId: 1004
+    characterName: "\u66F4\u65AF\u8482\u5B89"
+    attackVoice: "Audio/Voice/BeastWarrior/Attack"
+    skillVoice: "Audio/Voice/BeastWarrior/Skill"
+    ultimateVoice: "Audio/Voice/BeastWarrior/Ultimate"
+    hurtVoice: "Audio/Voice/BeastWarrior/Hurt"
+    deathVoice: "Audio/Voice/BeastWarrior/Death"
+    victoryVoice: "Audio/Voice/BeastWarrior/Victory"
+    idleVoice: "Audio/Voice/BeastWarrior/Idle"
+  - characterId: 1005
+    characterName: "\u96C4\u5E0C\u96C4"
+    attackVoice: "Audio/Voice/DemonAssassin/Attack"
+    skillVoice: "Audio/Voice/DemonAssassin/Skill"
+    ultimateVoice: "Audio/Voice/DemonAssassin/Ultimate"
+    hurtVoice: "Audio/Voice/DemonAssassin/Hurt"
+    deathVoice: "Audio/Voice/DemonAssassin/Death"
+    victoryVoice: "Audio/Voice/DemonAssassin/Victory"
+    idleVoice: "Audio/Voice/DemonAssassin/Idle"

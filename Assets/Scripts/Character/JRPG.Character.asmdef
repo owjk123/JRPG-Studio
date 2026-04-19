@@ -1,0 +1,16 @@
+{
+    "name": "JRPG.Character",
+    "rootNamespace": "JRPG.Character",
+    "references": [
+        "GUID:00000000000000000000000000000000"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

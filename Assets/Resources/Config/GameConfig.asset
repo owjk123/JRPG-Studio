@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  gameVersion: "1.0.0"
+  dataVersion: 1
+  lastUpdateTime: "2024-01-01"
+  currentDifficulty: 1
+  difficultySettings:
+  - level: 0
+    enemyAttackMultiplier: 0.7
+    enemyDefenseMultiplier: 0.7
+    enemyHpMultiplier: 0.7
+    enemySpeedMultiplier: 0.9
+    enemyCritRateBonus: 0
+    enemySkillDamageMultiplier: 0.7
+    expMultiplier: 1.5
+    goldMultiplier: 1.5
+    dropMultiplier: 1.3
+    allowAutoBattle: 1
+    allowBattleSkip: 0
+  - level: 1
+    enemyAttackMultiplier: 1
+    enemyDefenseMultiplier: 1
+    enemyHpMultiplier: 1
+    enemySpeedMultiplier: 1
+    enemyCritRateBonus: 0
+    enemySkillDamageMultiplier: 1
+    expMultiplier: 1
+    goldMultiplier: 1
+    dropMultiplier: 1
+    allowAutoBattle: 1
+    allowBattleSkip: 0
+  - level: 2
+    enemyAttackMultiplier: 1.3
+    enemyDefenseMultiplier: 1.3
+    enemyHpMultiplier: 1.5
+    enemySpeedMultiplier: 1.1
+    enemyCritRateBonus: 0.05
+    enemySkillDamageMultiplier: 1.3
+    expMultiplier: 1.2
+    goldMultiplier: 1.2
+    dropMultiplier: 1.2
+    allowAutoBattle: 1
+    allowBattleSkip: 0
+  - level: 3
+    enemyAttackMultiplier: 1.5
+    enemyDefenseMultiplier: 1.5
+    enemyHpMultiplier: 2
+    enemySpeedMultiplier: 1.15
+    enemyCritRateBonus: 0.1
+    enemySkillDamageMultiplier: 1.5
+    expMultiplier: 1.5
+    goldMultiplier: 1.5
+    dropMultiplier: 1.5
+    allowAutoBattle: 0
+    allowBattleSkip: 0
+  - level: 4
+    enemyAttackMultiplier: 2
+    enemyDefenseMultiplier: 2
+    enemyHpMultiplier: 3
+    enemySpeedMultiplier: 1.2
+    enemyCritRateBonus: 0.15
+    enemySkillDamageMultiplier: 2
+    expMultiplier: 2
+    goldMultiplier: 2
+    dropMultiplier: 2
+    allowAutoBattle: 0
+    allowBattleSkip: 0
+  initialLevelCap: 100
+  breakthroughLevelBonus: 20
+  baseExpFormula: 100
+  expGrowthRate: 1.5
+  characterExpMultiplier: 1
+  friendSupportExpBonus: 0.2
+  enableLevelPenalty: 1
+  levelPenaltyThreshold: 10
+  levelPenaltyFactor: 0.5
+  goldMultiplier: 1
+  dailyGoldLimit: 0
+  baseGoldPerStage: 100
+  goldGrowthRate: 1.2
+  bossGoldMultiplier: 2
+  dropMultiplier: 1
+  rareDropMultiplier: 1
+  equipmentDropMultiplier: 1
+  enableDropProtection: 1
+  rareDropProtectionCount: 10
+  bossGuaranteeEquipment: 1
+  eliteExtraDropChance: 0.3
+  baseCritDamageMultiplier: 1.5
+  maxCritRate: 0.8
+  maxEvadeRate: 0.7
+  damageVariance: 0.1
+  minimumDamage: 1
+  defenseReductionFactor: 0.5
+  maxDefenseReduction: 0.7
+  elementalAdvantageBonus: 1.5
+  elementalDisadvantagePenalty: 0.75
+  atbChargeSpeed: 2
+  atbFullChargeTime: 3
+  skillLevelCap: 20
+  skillUpgradeExpMultiplier: 1
+  ultimateSkillUnlockLevel: 50
+  ultimateSkillEnergyCost: 100
+  maxPassiveSkillSlots: 3
+  cooldownPrecision: 0
+  maxEnhancementLevel: 15
+  baseEnhancementSuccessRate: 0.5
+  enhancementSuccessDecay: 0.1
+  maxBreakthroughLevel: 5
+  setPieceThresholds:
+  - 2
+  - 4
+  - 6
+  setBonusEffectIncrement: 0.1
+  maxStamina: 120
+  staminaRecoveryInterval: 5
+  staminaRecoveryAmount: 1
+  maxStaminaPurchaseCount: 10
+  staminaPurchaseCostIncrement: 10
+  staminaPurchaseBaseCost: 50
+  maxStaminaOverflow: 1.5
+  singleGachaCost: 280
+  multiGachaCost: 2800
+  multiGachaGuarantee4Star: 1
+  pityPullCount: 90
+  pityTriggerRate: 100
+  pity4StarRate: 0.8
+  pity5StarRate: 0.2
+  dailyFreeGachaCount: 0
+  dailyFreeResetTime: "05:00"
+  currentEventMultiplier: 1
+  eventExpMultiplier: 1
+  eventGoldMultiplier: 1
+  eventDropMultiplier: 1
+  eventSkillExpMultiplier: 1
+  eventStartTime: ""
+  eventEndTime: ""
+  hasActiveEvent: 0

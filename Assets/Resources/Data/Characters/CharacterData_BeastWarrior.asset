@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf61f55d74274d34eb5f65ffd4c0588b, type: 3}
+  m_Name: CharacterData_BeastWarrior
+  m_EditorClassIdentifier: 
+  characterId: 1004
+  characterName: "\u66F4\u65AF\u8482\u5B89"
+  title: "\u91CE\u6027\u6218\u795E"
+  description: "\u517D\u4EBA\u90E8\u843D\u7684\u9996\u9886\uFF0C\u62E5\u6709\u91CE\u517D\u7684\u529B\u91CF\u548C\u6FC0\u60C5\u3002\u4EE5\u72E0\u72F8\u7684\u6218\u6597\u98CE\u683C\u95FB\u540D\uFF0C\u662F\u517D\u4EBA\u90E8\u843D\u7684\u7EDD\u5BF9\u7F8E\u5F02\u3002"
+  rarity: 2
+  race: 1
+  element: 1
+  role: 0
+  weaponType: 4
+  maxLevel: 100
+  baseHp: 1100
+  hpGrowth: 1.2
+  baseAtk: 130
+  atkGrowth: 1.18
+  baseDef: 60
+  defGrowth: 1.16
+  baseSpeed: 90
+  baseCritRate: 0.1
+  baseCritDamage: 1.55
+  baseMaxMp: 60
+  maxUltimateEnergy: 100
+  portrait: {fileID: 0}
+  battleModel: {fileID: 0}
+  chibiModel: {fileID: 0}
+  voiceLines: []
+  battleVoices:
+    battleStart: {fileID: 0}
+    skillUse: {fileID: 0}
+    ultimateUse: {fileID: 0}
+    damage: {fileID: 0}
+    victory: {fileID: 0}
+    defeat: {fileID: 0}

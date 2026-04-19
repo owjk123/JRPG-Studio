@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6, type: 3}
+  m_Name: UISpriteConfig
+  m_EditorClassIdentifier: 
+  defaultBackground: "UI/Backgrounds/DefaultBackground"
+  defaultDialogBoxBg: "UI/Dialog/DialogBoxBackground"
+  defaultButtonNormal: "UI/Buttons/ButtonNormal"
+  defaultButtonPressed: "UI/Buttons/ButtonPressed"
+  defaultButtonDisabled: "UI/Buttons/ButtonDisabled"
+  defaultPortraitFrame: "UI/Frames/PortraitFrame"
+  defaultItemIcon: "UI/Icons/ItemDefault"
+  placeholderIcon: "UI/Icons/Placeholder"
+  hpBarBackground: "UI/Bars/HPBarBackground"
+  hpBarFill: "UI/Bars/HPBarFill"
+  mpBarBackground: "UI/Bars/MPBarBackground"
+  mpBarFill: "UI/Bars/MPBarFill"
+  expBarBackground: "UI/Bars/EXPBarBackground"
+  expBarFill: "UI/Bars/EXPBarFill"
+  atbBarBackground: "UI/Bars/ATBBarBackground"
+  atbBarFill: "UI/Bars/ATBBarFill"
+  battleBackgroundNormal: "UI/Backgrounds/BattleBackgroundNormal"
+  battleBackgroundElite: "UI/Backgrounds/BattleBackgroundElite"
+  battleBackgroundBoss: "UI/Backgrounds/BattleBackgroundBoss"
+  actionMenuBg: "UI/Battle/ActionMenuBackground"
+  skillMenuBg: "UI/Battle/SkillMenuBackground"
+  targetArrow: "UI/Battle/TargetArrow"
+  damageNumber: "UI/Battle/DamageNumber"
+  criticalEffect: "UI/Battle/CriticalEffect"
+  healNumber: "UI/Battle/HealNumber"
+  buffIconBase: "UI/Icons/Buff/"
+  debuffIconBase: "UI/Icons/Debuff/"
+  elementIconBase: "UI/Icons/Element/"
+  iconFire: "UI/Icons/Element/Fire"
+  iconIce: "UI/Icons/Element/Ice"
+  iconThunder: "UI/Icons/Element/Thunder"
+  iconLight: "UI/Icons/Element/Light"
+  iconDark: "UI/Icons/Element/Dark"
+  iconWind: "UI/Icons/Element/Wind"
+  iconEarth: "UI/Icons/Element/Earth"
+  iconWater: "UI/Icons/Element/Water"
+  rarityCommon: "UI/Icons/Rarity/Common"
+  rarityUncommon: "UI/Icons/Rarity/Uncommon"
+  rarityRare: "UI/Icons/Rarity/Rare"
+  rarityEpic: "UI/Icons/Rarity/Epic"
+  rarityLegendary: "UI/Icons/Rarity/Legendary"
+  iconSword: "UI/Icons/Weapon/Sword"
+  iconStaff: "UI/Icons/Weapon/Staff"
+  iconBow: "UI/Icons/Weapon/Bow"
+  iconDagger: "UI/Icons/Weapon/Dagger"
+  iconHammer: "UI/Icons/Weapon/Hammer"
+  iconFist: "UI/Icons/Weapon/Fist"
+  iconShield: "UI/Icons/Weapon/Shield"
+  iconHuman: "UI/Icons/Race/Human"
+  iconBeast: "UI/Icons/Race/Beast"
+  iconVampire: "UI/Icons/Race/Vampire"
+  iconAngel: "UI/Icons/Race/Angel"
+  iconDemon: "UI/Icons/Race/Demon"
+  mainMenuBg: "UI/Panels/MainMenuBackground"
+  characterPanelBg: "UI/Panels/CharacterPanelBackground"
+  inventoryPanelBg: "UI/Panels/InventoryPanelBackground"
+  skillPanelBg: "UI/Panels/SkillPanelBackground"
+  settingsPanelBg: "UI/Panels/SettingsPanelBackground"
+  successToast: "UI/Feedback/SuccessToast"
+  errorToast: "UI/Feedback/ErrorToast"
+  warningToast: "UI/Feedback/WarningToast"
+  loadingSpinner: "UI/Feedback/LoadingSpinner"

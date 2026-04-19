@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf61f55d74274d34eb5f65ffd4c0588b, type: 3}
+  m_Name: CharacterData_HumanKnight
+  m_EditorClassIdentifier: 
+  characterId: 1001
+  characterName: "\u4E00\u9519\u5802"
+  title: "\u9C81\u83B1\u897F\u4E9A\u7687"
+  description: "\u6765\u81EA\u4EBA\u65CF\u7687\u5BB6\u7684\u9AD8\u8D44\u9AA8\u82F1\uff0c\u62C5\u4EFB\u7687\u5BB6\u62D4\u517D\u957F\u3002\u4EE5\u516D\u7F07\u5C71\u4F1F\u8F89\u7684\u529B\u91CF\u548C\u65E0\u5FE0\u7684\u5254\u76CA\u800C\u95FB\u540D\u3002"
+  rarity: 2
+  race: 0
+  element: 0
+  role: 1
+  weaponType: 0
+  maxLevel: 100
+  baseHp: 1200
+  hpGrowth: 1.22
+  baseAtk: 95
+  atkGrowth: 1.15
+  baseDef: 80
+  defGrowth: 1.18
+  baseSpeed: 85
+  baseCritRate: 0.05
+  baseCritDamage: 1.5
+  baseMaxMp: 80
+  maxUltimateEnergy: 100
+  portrait: {fileID: 0}
+  battleModel: {fileID: 0}
+  chibiModel: {fileID: 0}
+  voiceLines: []
+  battleVoices:
+    battleStart: {fileID: 0}
+    skillUse: {fileID: 0}
+    ultimateUse: {fileID: 0}
+    damage: {fileID: 0}
+    victory: {fileID: 0}
+    defeat: {fileID: 0}

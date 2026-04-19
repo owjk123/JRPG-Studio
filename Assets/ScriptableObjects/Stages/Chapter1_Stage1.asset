@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [stagedata_guid], type: 3}
+  m_Name: Chapter1_Stage1
+  m_EditorClassIdentifier: 
+  stageId: 10101
+  stageName: "\u65B0\u624B\u68EE\u6797"
+  chapterId: 1
+  stageIndex: 1
+  stageType: 0
+  difficulty: 0
+  recommendedLevel: 1
+  recommendedPower: 1000
+  staminaCost: 6
+  dailyChallengeLimit: -1
+  enemies:
+  - enemyId: 1
+    enemyName: "\u53F2\u83B1\u59C6
+    level: 1
+    position: {x: 0, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 1
+    enemyName: "\u53F2\u83B1\u59C6
+    level: 1
+    position: {x: 1, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 1
+    enemyName: "\u53F2\u83B1\u59C6
+    level: 1
+    position: {x: 2, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  encounterDataPath: Assets/ScriptableObjects/Battles/DemoBattle1_NewbieForest
+  clearConditions:
+  - type: 0
+    param1: 0
+    param2: 0
+    description: "\u6253\u8D25\u6240\u6709\u654C\u4EBA
+  starConditions:
+  - stars: 1
+    condition:
+      type: 0
+      param1: 0
+      param2: 0
+      description: "\u901A\u5173\u5173\u5361
+    achieved: 0
+  - stars: 2
+    condition:
+      type: 3
+      param1: 10
+      param2: 0
+      description: 10\u56DE\u5408\u5185\u901A\u5173
+    achieved: 0
+  - stars: 3
+    condition:
+      type: 4
+      param1: 0
+      param2: 0
+      description: "\u4E0D\u635F\u5931\u5355\u4F4D\u901A\u5173
+    achieved: 0
+  baseReward:
+    exp: 50
+    gold: 100
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  firstClearReward:
+    exp: 100
+    gold: 200
+    itemIds:
+    - 401
+    itemCounts:
+    - 5
+    itemDropRates: []
+  perfectClearReward:
+    exp: 80
+    gold: 150
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  bonusDrops:
+  - itemId: 101
+    itemName: "\u91D1\u5E01
+    minCount: 10
+    maxCount: 30
+    dropRate: 100
+    guaranteed: 1
+  isStoryStage: 1
+  preBattleDialogueId: 10101
+  postBattleDialogueId: 10102
+  victoryDialogueId: 10103
+  battleScenePath: Scenes/Battle/NewbieForest
+  backgroundPath: Backgrounds/Forest
+  bgmPath: BGM/Battle_Forest
+  autoBattleEnabled: 1
+  itemUsageEnabled: 1
+  supportEnabled: 1
+  nextStageId: 10102
+  unlockHint: "\u9ED8\u8BA4\u5F00\u542F

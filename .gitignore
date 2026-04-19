@@ -1,0 +1,115 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta files
+*.meta
+
+# Unity3D generated file
+*.pidb
+*.pdb
+*.mdb
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics
+crashlytics-build.properties
+fabric.properties
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.userprefs
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+packages/
+*.nupkg
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Android
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+
+# Keystore files (IMPORTANT: Never commit keystore files!)
+*.keystore
+*.jks
+
+# Secrets
+*.pem
+*.key
+secrets/
+.secrets/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Test results
+TestResults/
+TestResults.xml
+
+# Documentation builds
+docs/_build/
+
+# Package Manager
+node_modules/
+
+# Local configuration
+.env
+.env.local

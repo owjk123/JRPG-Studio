@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6d2d4e5e84d4a3eb5f65b7e3f0d8e9, type: 3}
+  m_Name: EnemyData_Slime
+  m_EditorClassIdentifier: 
+  enemyId: 2003
+  enemyName: "\u53F2\u83B1\u59C6"
+  description: "\u6C34\u6CF5\u7B49\u5730\u5E26\u7684\u5E38\u89C1\u6D3E\u751F\u7269\u3002\u8F6F\u7CD6\u7CD6\u7684\u8EBA\u8EBA\u611F\u89E9\u4EBA\uFF0C\u4F46\u5374\u62E5\u6709\u6108\u5408\u8D8A\u591A\u7684\u751F\u547D\u529B\u3002"
+  enemyType: 0
+  element: 1
+  baseHP: 350
+  baseMP: 10
+  baseAttack: 18
+  baseDefense: 5
+  baseMagicAtk: 25
+  baseMagicDef: 20
+  baseSpeed: 8
+  skillIds: []
+  ultimateSkillId: 0
+  passiveSkillIds: []
+  aiType: 2
+  aggressionLevel: 0.3
+  prefabPath: "Enemies/Slime/SlimePrefab"
+  portraitPath: "Enemies/Slime/SlimePortrait"

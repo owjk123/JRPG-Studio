@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [tutorialdata_guid], type: 3}
+  m_Name: TutorialData
+  m_EditorClassIdentifier: 
+  tutorialId: 1
+  tutorialName: 新手引导
+  phase: 0
+  steps:
+  - stepId: 1
+    stepName: 介绍主界面
+    tutorialType: 0
+    targetType: 0
+    targetPath: UI/MainCanvas/TopBar/GoldText
+    highlightTarget: 1
+    highlightStyle: 0
+    description: "欢迎来到JRPG世界！这里显示的是你当前拥有的金币。\n金币可用于角色养成和商店购买。"
+    dialoguePortrait: {fileID: 0}
+    speakerName: 引导精灵
+    duration: 3
+    timeout: 0
+    autoAdvance: 1
+    nextStepId: 2
+    prerequisiteSteps: []
+    skipInDebug: 0
+  - stepId: 2
+    stepName: 角色编组
+    tutorialType: 1
+    targetType: 0
+    targetPath: UI/MainCanvas/BottomBar/TeamButton
+    highlightTarget: 1
+    highlightStyle: 0
+    description: "点击这里可以打开队伍编组界面。\n你可以编排出战队伍，搭配不同角色应对各种战斗。"
+    dialoguePortrait: {fileID: 0}
+    speakerName: 引导精灵
+    duration: 0
+    timeout: 30
+    autoAdvance: 0
+    nextStepId: 3
+    prerequisiteSteps: []
+    skipInDebug: 0
+  - stepId: 3
+    stepName: 首次战斗
+    tutorialType: 5
+    targetType: 0
+    targetPath: UI/TeamCanvas/ConfirmButton
+    highlightTarget: 1
+    highlightStyle: 0
+    description: "确认你的队伍配置后，点击开始战斗！\nATB战斗系统会给你带来紧张刺激的战斗体验。"
+    dialoguePortrait: {fileID: 0}
+    speakerName: 引导精灵
+    duration: 0
+    timeout: 60
+    autoAdvance: 0
+    nextStepId: 4
+    prerequisiteSteps: []
+    skipInDebug: 0
+  - stepId: 4
+    stepName: 抽卡系统
+    tutorialType: 6
+    targetType: 0
+    targetPath: UI/MainCanvas/BottomBar/GachaButton
+    highlightTarget: 1
+    highlightStyle: 0
+    description: "恭喜你完成了首次战斗！\n现在可以试试抽卡系统，获得更多强力角色。"
+    dialoguePortrait: {fileID: 0}
+    speakerName: 引导精灵
+    duration: 0
+    timeout: 30
+    autoAdvance: 0
+    nextStepId: 5
+    prerequisiteSteps: []
+    skipInDebug: 0
+  - stepId: 5
+    stepName: 角色养成
+    tutorialType: 1
+    targetType: 0
+    targetPath: UI/MainCanvas/BottomBar/CharacterButton
+    highlightTarget: 1
+    highlightStyle: 0
+    description: "在这里你可以查看和养成你的角色。\n升级、突破、技能升级都能让角色变得更强！\n新手引导到此结束，祝你游戏愉快！"
+    dialoguePortrait: {fileID: 0}
+    speakerName: 引导精灵
+    duration: 5
+    timeout: 0
+    autoAdvance: 1
+    nextStepId: -1
+    prerequisiteSteps: []
+    skipInDebug: 0
+  enabled: 1
+  canSkip: 0
+  skipConfirmation: 1
+  completionReward:
+    goldReward: 1000
+    diamondReward: 100
+    expReward: 500
+    itemRewardIds: []
+    itemRewardCounts: []

@@ -1,0 +1,16 @@
+{
+    "name": "JRPG.Battle",
+    "rootNamespace": "JRPGStudio.Battle",
+    "references": [
+        "JRPG.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

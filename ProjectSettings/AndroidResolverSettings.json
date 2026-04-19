@@ -1,0 +1,10 @@
+{
+  "androidResolverDependencies": [],
+  "androidResolverEnabled": true,
+  "androidResolverUseProjectSettings": true,
+  "androidResolverResolutionStrategy": "highestVersion",
+  "androidResolverAddProjectDependencies": true,
+  "androidResolverUseLocalCache": true,
+  "androidResolverOfflineMode": false,
+  "androidResolverVerifyLockfile": true
+}

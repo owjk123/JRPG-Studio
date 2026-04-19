@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7, type: 3}
+  m_Name: CharacterSpriteConfig
+  m_EditorClassIdentifier: 
+  defaultPortrait: "Characters/Portraits/DefaultPortrait"
+  defaultFullBody: "Characters/FullBody/DefaultFullBody"
+  defaultBattleSprite: "Characters/Battle/DefaultBattleSprite"
+  defaultThumbnail: "Characters/Thumbnails/DefaultThumbnail"
+  humanPortrait: "Characters/Portraits/Human/DefaultPortrait"
+  humanFullBody: "Characters/FullBody/Human/Default"
+  humanBattleSprite: "Characters/Battle/Human/Default"
+  beastPortrait: "Characters/Portraits/Beast/DefaultPortrait"
+  beastFullBody: "Characters/FullBody/Beast/Default"
+  beastBattleSprite: "Characters/Battle/Beast/Default"
+  vampirePortrait: "Characters/Portraits/Vampire/DefaultPortrait"
+  vampireFullBody: "Characters/FullBody/Vampire/Default"
+  vampireBattleSprite: "Characters/Battle/Vampire/Default"
+  angelPortrait: "Characters/Portraits/Angel/DefaultPortrait"
+  angelFullBody: "Characters/FullBody/Angel/Default"
+  angelBattleSprite: "Characters/Battle/Angel/Default"
+  demonPortrait: "Characters/Portraits/Demon/DefaultPortrait"
+  demonFullBody: "Characters/FullBody/Demon/Default"
+  demonBattleSprite: "Characters/Battle/Demon/Default"
+  knightPortrait: "Characters/Portraits/Knight/DefaultPortrait"
+  knightBattleSprite: "Characters/Battle/Knight/Default"
+  magePortrait: "Characters/Portraits/Mage/DefaultPortrait"
+  mageBattleSprite: "Characters/Battle/Mage/Default"
+  archerPortrait: "Characters/Portraits/Archer/DefaultPortrait"
+  archerBattleSprite: "Characters/Battle/Archer/Default"
+  warriorPortrait: "Characters/Portraits/Warrior/DefaultPortrait"
+  warriorBattleSprite: "Characters/Battle/Warrior/Default"
+  assassinPortrait: "Characters/Portraits/Assassin/DefaultPortrait"
+  assassinBattleSprite: "Characters/Battle/Assassin/Default"
+  priestPortrait: "Characters/Portraits/Priest/DefaultPortrait"
+  priestBattleSprite: "Characters/Battle/Priest/Default"
+  roguePortrait: "Characters/Portraits/Rogue/DefaultPortrait"
+  rogueBattleSprite: "Characters/Battle/Rogue/Default"
+  injuredSuffix: "_injured"
+  stunnedSuffix: "_stunned"
+  deadSuffix: "_dead"
+  awakenedSuffix: "_awakened"
+  attackAnimationPath: "Characters/Animations/Attack/"
+  hurtAnimationPath: "Characters/Animations/Hurt/"
+  deathAnimationPath: "Characters/Animations/Death/"
+  idleAnimationPath: "Characters/Animations/Idle/"
+  skillAnimationPath: "Characters/Animations/Skill/"
+  characterPortraits:
+  - characterId: 1001
+    characterName: "\u4E00\u9519\u5802"
+    portraitPath: "Characters/Portraits/HumanKnight_Portrait"
+    fullBodyPath: "Characters/FullBody/HumanKnight_FullBody"
+    battleSpritePath: "Characters/Battle/HumanKnight_Battle"
+    thumbnailPath: "Characters/Thumbnails/HumanKnight_Thumb"
+  - characterId: 1002
+    characterName: "\u83B1\u7C73\u4E9A"
+    portraitPath: "Characters/Portraits/VampireMage_Portrait"
+    fullBodyPath: "Characters/FullBody/VampireMage_FullBody"
+    battleSpritePath: "Characters/Battle/VampireMage_Battle"
+    thumbnailPath: "Characters/Thumbnails/VampireMage_Thumb"
+  - characterId: 1003
+    characterName: "\u7C73\u52A0\u83B1"
+    portraitPath: "Characters/Portraits/AngelArcher_Portrait"
+    fullBodyPath: "Characters/FullBody/AngelArcher_FullBody"
+    battleSpritePath: "Characters/Battle/AngelArcher_Battle"
+    thumbnailPath: "Characters/Thumbnails/AngelArcher_Thumb"
+  - characterId: 1004
+    characterName: "\u66F4\u65AF\u8482\u5B89"
+    portraitPath: "Characters/Portraits/BeastWarrior_Portrait"
+    fullBodyPath: "Characters/FullBody/BeastWarrior_FullBody"
+    battleSpritePath: "Characters/Battle/BeastWarrior_Battle"
+    thumbnailPath: "Characters/Thumbnails/BeastWarrior_Thumb"
+  - characterId: 1005
+    characterName: "\u96C4\u5E0C\u96C4"
+    portraitPath: "Characters/Portraits/DemonAssassin_Portrait"
+    fullBodyPath: "Characters/FullBody/DemonAssassin_FullBody"
+    battleSpritePath: "Characters/Battle/DemonAssassin_Battle"
+    thumbnailPath: "Characters/Thumbnails/DemonAssassin_Thumb"

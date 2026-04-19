@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [stagedata_guid], type: 3}
+  m_Name: Chapter1_Stage3
+  m_EditorClassIdentifier: 
+  stageId: 10103
+  stageName: "\u91CE\u9C7C\u6C60\u5858
+  chapterId: 1
+  stageIndex: 3
+  stageType: 0
+  difficulty: 1
+  recommendedLevel: 5
+  recommendedPower: 3500
+  staminaCost: 10
+  dailyChallengeLimit: -1
+  enemies:
+  - enemyId: 3
+    enemyName: "\u9C7C\u4EBA
+    level: 4
+    position: {x: 0, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 3
+    enemyName: "\u9C7C\u4EBA
+    level: 5
+    position: {x: 1, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 3
+    enemyName: "\u9C7C\u4EBA
+    level: 4
+    position: {x: 2, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 4
+    enemyName: "\u6C34\u9C7C\u738B
+    level: 6
+    position: {x: 3, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  encounterDataPath: ''
+  clearConditions:
+  - type: 0
+    param1: 0
+    param2: 0
+    description: "\u6253\u8D25\u6240\u6709\u654C\u4EBA
+  starConditions:
+  - stars: 1
+    condition:
+      type: 0
+      param1: 0
+      param2: 0
+      description: "\u901A\u5173\u5173\u5361
+    achieved: 0
+  - stars: 2
+    condition:
+      type: 3
+      param1: 12
+      param2: 0
+      description: 12\u56DE\u5408\u5185\u901A\u5173
+    achieved: 0
+  - stars: 3
+    condition:
+      type: 4
+      param1: 0
+      param2: 0
+      description: "\u4E0D\u635F\u5931\u5355\u4F4D\u901A\u5173
+    achieved: 0
+  baseReward:
+    exp: 100
+    gold: 200
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  firstClearReward:
+    exp: 200
+    gold: 400
+    itemIds:
+    - 401
+    - 201
+    itemCounts:
+    - 10
+    - 1
+    itemDropRates: []
+  perfectClearReward:
+    exp: 150
+    gold: 300
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  bonusDrops:
+  - itemId: 101
+    itemName: "\u91D1\u5E01
+    minCount: 30
+    maxCount: 80
+    dropRate: 100
+    guaranteed: 1
+  - itemId: 201
+    itemName: "\u7075\u9177\u77F3
+    minCount: 1
+    maxCount: 2
+    dropRate: 30
+    guaranteed: 0
+  isStoryStage: 1
+  preBattleDialogueId: 10121
+  postBattleDialogueId: 10122
+  victoryDialogueId: 10123
+  battleScenePath: Scenes/Battle/Pond
+  backgroundPath: Backgrounds/Pond
+  bgmPath: BGM/Battle_Pond
+  autoBattleEnabled: 1
+  itemUsageEnabled: 1
+  supportEnabled: 1
+  nextStageId: 10104
+  unlockHint: "\u901A\u5173\u7B2C\u4E8C\u5173

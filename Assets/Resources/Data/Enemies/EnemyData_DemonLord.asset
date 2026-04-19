@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6d2d4e5e84d4a3eb5f65b7e3f0d8e9, type: 3}
+  m_Name: EnemyData_DemonLord
+  m_EditorClassIdentifier: 
+  enemyId: 2005
+  enemyName: "\u9B54\u738B"
+  description: "\u9B54\u754C\u7684\u7EDD\u5BF9\u7EDF\u6CBB\u8005\uFF0C\u62E5\u6709\u8FC7\u4EBF\u5E74\u7684\u5B88\u62A4\u8005\u3002\u517D\u9053\u516C\u4E3B\u4EEC\u7684\u6B7B\u654C\uFF0C\u4E5F\u662F\u5434\u7FBD\u9F99\u738B\u671D\u7684\u6700\u7EC8\u5BFB\u6B7B\u5BF9\u624B\u3002"
+  enemyType: 2
+  element: 5
+  baseHP: 15000
+  baseMP: 500
+  baseAttack: 350
+  baseDefense: 200
+  baseMagicAtk: 400
+  baseMagicDef: 250
+  baseSpeed: 80
+  skillIds: []
+  ultimateSkillId: 0
+  passiveSkillIds: []
+  aiType: 3
+  aggressionLevel: 1
+  prefabPath: "Enemies/DemonLord/DemonLordPrefab"
+  portraitPath: "Enemies/DemonLord/DemonLordPortrait"

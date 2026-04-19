@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [newplayertemplate_guid], type: 3}
+  m_Name: NewPlayerTemplate
+  m_EditorClassIdentifier: 
+  defaultPlayerName: "\u5192\u9669\u8005"
+  defaultAvatarId: 1
+  initialGold: 10000
+  initialDiamond: 500
+  initialArenaCoin: 0
+  initialGuildCoin: 0
+  initialStamina: 100
+  maxStamina: 100
+  staminaRecoveryInterval: 300
+  staminaRecoveryAmount: 1
+  initialCharacterIds:
+  - 1001
+  initialCharacterLevel: 1
+  initialCharacterStars: 1
+  initialItemIds:
+  - 401
+  initialItemCounts:
+  - 10
+  giveInitialEquipment: 1
+  initialEquipmentIds:
+  - 1001
+  - 2001
+  - 3001
+  initialTutorialStep: 1
+  skipTutorial: 0
+  initialChapterId: 1
+  initialStageId: 1
+  unlockedStageIds:
+  - 10101
+  defaultAutoBattle: 0
+  defaultBattleSpeed: 1
+  defaultSfxVolume: 0.8
+  defaultMusicVolume: 0.6
+  defaultNotifications: 1
+  totalSignInDays: 0
+  lastSignInDate: ''
+  consecutiveSignInDays: 0
+  firstPurchaseClaimed: 0
+  totalRechargeAmount: 0
+  claimedLimitedRewards: []

@@ -1,0 +1,93 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type'
+        required: true
+        default: 'debug'
+        type: choice
+        options:
+          - debug
+          - release
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+  PROJECT_PATH: JRPG-Studio
+
+jobs:
+  build:
+    name: Build APK for Android
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+      
+      # Cache Unity Library
+      - name: Cache Unity Library
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.PROJECT_PATH }}/Library
+          key: Library-${{ hashFiles('${{ env.PROJECT_PATH }}/Assets/**', '${{ env.PROJECT_PATH }}/Packages/**', '${{ env.PROJECT_PATH }}/ProjectSettings/**') }}
+          restore-keys: |
+            Library-
+      
+      # Unity Builder
+      - name: Build APK
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: ${{ env.PROJECT_PATH }}
+          targetPlatform: Android
+          androidAppBundle: false
+          androidExportType: androidPackage
+          buildName: DivineChaos
+          buildsPath: build
+          buildMethod: JRPG.Editor.BuildTools.BuildAPK
+          versioning: Semantic
+          androidVersionCode: ${{ github.run_number }}
+          androidTargetSdkVersion: AndroidApiLevel33
+          androidMinSdkVersion: AndroidApiLevel24
+      
+      # Upload APK
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: DivineChaos-APK-${{ github.run_number }}
+          path: build/Android/DivineChaos.apk
+          retention-days: 30
+      
+      # Create Release (on main branch)
+      - name: Create Release
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Divine Chaos v1.0.${{ github.run_number }}
+          tag_name: v1.0.${{ github.run_number }}
+          files: build/Android/DivineChaos.apk
+          body: |
+            ## 神界：混沌边境 v1.0.${{ github.run_number }}
+            
+            ### 构建信息
+            - 构建时间: ${{ github.event.head_commit.timestamp }}
+            - Unity版本: 2022.3 LTS
+            - 目标平台: Android 7.0+ (API 24+)
+            
+            ### 下载安装
+            下载APK文件后直接安装即可体验游戏
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

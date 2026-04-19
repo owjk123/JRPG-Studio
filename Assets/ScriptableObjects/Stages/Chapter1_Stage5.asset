@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [stagedata_guid], type: 3}
+  m_Name: Chapter1_Stage5
+  m_EditorClassIdentifier: 
+  stageId: 10105
+  stageName: "\u54E5\u5E03\u6797\u5821\u5792
+  chapterId: 1
+  stageIndex: 5
+  stageType: 2
+  difficulty: 2
+  recommendedLevel: 10
+  recommendedPower: 10000
+  staminaCost: 15
+  dailyChallengeLimit: 1
+  enemies:
+  - enemyId: 7
+    enemyName: "\u54E5\u5E03\u6797\u593A\u5C06
+    level: 10
+    position: {x: 2, y: 0}
+    isBoss: 1
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 5
+    enemyName: "\u54E5\u5E03\u6797\u7BAD\u624B
+    level: 8
+    position: {x: 0, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 5
+    enemyName: "\u54E5\u5E03\u6797\u7BAD\u624B
+    level: 8
+    position: {x: 1, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 6
+    enemyName: "\u54E5\u5E03\u6797\u6218\u58EB
+    level: 9
+    position: {x: 3, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 6
+    enemyName: "\u54E5\u5E03\u6797\u6218\u58EB
+    level: 9
+    position: {x: 4, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  encounterDataPath: ''
+  clearConditions:
+  - type: 1
+    param1: 7
+    param2: 0
+    description: "\u6253\u8D25BOSS\u54E5\u5E03\u6797\u593A\u5C06
+  starConditions:
+  - stars: 1
+    condition:
+      type: 1
+      param1: 7
+      param2: 0
+      description: "\u6253\u8D25BOSS
+    achieved: 0
+  - stars: 2
+    condition:
+      type: 3
+      param1: 20
+      param2: 0
+      description: 20\u56DE\u5408\u5185\u6253\u8D25BOSS
+    achieved: 0
+  - stars: 3
+    condition:
+      type: 4
+      param1: 0
+      param2: 0
+      description: "\u4E0D\u635F\u5931\u5355\u4F4D\u6253\u8D25BOSS
+    achieved: 0
+  baseReward:
+    exp: 300
+    gold: 500
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  firstClearReward:
+    exp: 500
+    gold: 1000
+    itemIds:
+    - 301
+    - 203
+    itemCounts:
+    - 1
+    - 5
+    itemDropRates: []
+  perfectClearReward:
+    exp: 400
+    gold: 700
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  bonusDrops:
+  - itemId: 101
+    itemName: "\u91D1\u5E01
+    minCount: 100
+    maxCount: 200
+    dropRate: 100
+    guaranteed: 1
+  - itemId: 301
+    itemName: "\u54E5\u5E03\u6797\u788E\u7247
+    minCount: 5
+    maxCount: 10
+    dropRate: 80
+    guaranteed: 0
+  isStoryStage: 1
+  preBattleDialogueId: 10141
+  postBattleDialogueId: 10142
+  victoryDialogueId: 10143
+  battleScenePath: Scenes/Battle/GoblinFortress
+  backgroundPath: Backgrounds/GoblinFortress
+  bgmPath: BGM/Battle_Boss
+  autoBattleEnabled: 0
+  itemUsageEnabled: 1
+  supportEnabled: 1
+  nextStageId: 10201
+  unlockHint: "\u901A\u5173\u7B2C\u56DB\u5173\uFF0C\u7B2C\u4E00\u7AE0\u5B8C\u7ED3

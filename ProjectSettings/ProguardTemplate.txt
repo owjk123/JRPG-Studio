@@ -1,0 +1,53 @@
+# ProGuard配置 - 神界：混沌边境
+# 用于Android APK代码混淆和优化
+
+# 保留Unity相关类
+-keep class com.unity3d.** { *; }
+-keep class com.google.android.games.** { *; }
+
+# 保留所有Native方法
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# 保留所有公共类和方法（用于Unity调用）
+-keep public class * {
+    public protected *;
+}
+
+# 保留所有序列化相关
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# 保留枚举
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# 保留Parcelable
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator CREATOR;
+}
+
+# 移除日志（发布版本）
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** i(...);
+}
+
+# 优化选项
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# 不进行预校验（加快构建速度）
+-dontpreverify

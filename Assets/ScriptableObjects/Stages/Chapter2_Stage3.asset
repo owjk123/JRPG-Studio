@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [stagedata_guid], type: 3}
+  m_Name: Chapter2_Stage3
+  m_EditorClassIdentifier: 
+  stageId: 10203
+  stageName: "\u9ED1\u6697\u5800\u5730
+  chapterId: 2
+  stageIndex: 3
+  stageType: 1
+  difficulty: 2
+  recommendedLevel: 16
+  recommendedPower: 28000
+  staminaCost: 16
+  dailyChallengeLimit: 3
+  enemies:
+  - enemyId: 11
+    enemyName: "\u9AB7\u9AC5\u9A91\u961F\u957F
+    level: 15
+    position: {x: 0, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 3
+    enemyName: "\u9AB7\u9AC5\u6CD5\u5E08
+    level: 15
+    position: {x: 1, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 3
+    enemyName: "\u9AB7\u9AC5\u6CD5\u5E08
+    level: 15
+    position: {x: 2, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 11
+    enemyName: "\u9AB7\u9AC5\u9A91\u961F\u957F
+    level: 16
+    position: {x: 3, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 11
+    enemyName: "\u9AB7\u9AC5\u9A91\u961F\u957F
+    level: 16
+    position: {x: 4, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  encounterDataPath: ''
+  clearConditions:
+  - type: 0
+    param1: 0
+    param2: 0
+    description: "\u6253\u8D25\u9AB7\u9AC5\u9A91\u961F
+  starConditions:
+  - stars: 1
+    condition:
+      type: 0
+      param1: 0
+      param2: 0
+      description: "\u901A\u5173\u5173\u5361
+    achieved: 0
+  - stars: 2
+    condition:
+      type: 3
+      param1: 18
+      param2: 0
+      description: 18\u56DE\u5408\u5185\u901A\u5173
+    achieved: 0
+  - stars: 3
+    condition:
+      type: 4
+      param1: 0
+      param2: 0
+      description: "\u4E0D\u635F\u5931\u5355\u4F4D\u901A\u5173
+    achieved: 0
+  baseReward:
+    exp: 250
+    gold: 500
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  firstClearReward:
+    exp: 500
+    gold: 1000
+    itemIds:
+    - 403
+    - 205
+    itemCounts:
+    - 5
+    - 5
+    itemDropRates: []
+  perfectClearReward:
+    exp: 350
+    gold: 700
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  bonusDrops:
+  - itemId: 101
+    itemName: "\u91D1\u5E01
+    minCount: 100
+    maxCount: 200
+    dropRate: 100
+    guaranteed: 1
+  - itemId: 205
+    itemName: "\u7075\u9177\u7C92
+    minCount: 2
+    maxCount: 5
+    dropRate: 50
+    guaranteed: 0
+  isStoryStage: 1
+  preBattleDialogueId: 10221
+  postBattleDialogueId: 10222
+  victoryDialogueId: 10223
+  battleScenePath: Scenes/Battle/DarkDungeon
+  backgroundPath: Backgrounds/DarkDungeon
+  bgmPath: BGM/Battle_Dungeon
+  autoBattleEnabled: 1
+  itemUsageEnabled: 1
+  supportEnabled: 1
+  nextStageId: 10204
+  unlockHint: "\u901A\u5173\u7B2C\u4E8C\u5173

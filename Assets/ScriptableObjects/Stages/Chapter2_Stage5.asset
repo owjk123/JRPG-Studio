@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: [stagedata_guid], type: 3}
+  m_Name: Chapter2_Stage5
+  m_EditorClassIdentifier: 
+  stageId: 10205
+  stageName: "\u9ED1\u6697\u5821\u5792\u5FC3\u810F
+  chapterId: 2
+  stageIndex: 5
+  stageType: 2
+  difficulty: 3
+  recommendedLevel: 20
+  recommendedPower: 50000
+  staminaCost: 20
+  dailyChallengeLimit: 1
+  enemies:
+  - enemyId: 14
+    enemyName: "\u9ED1\u6697\u9A91\u58EB
+    level: 18
+    position: {x: 0, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 14
+    enemyName: "\u9ED1\u6697\u9A91\u58EB
+    level: 18
+    position: {x: 1, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 15
+    enemyName: "\u6B7B\u4EA1\u9A91\u58EB\u957F
+    level: 19
+    position: {x: 2, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 14
+    enemyName: "\u9ED1\u6697\u9A91\u58EB
+    level: 18
+    position: {x: 3, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  - enemyId: 14
+    enemyName: "\u9ED1\u6697\u9A91\u58EB
+    level: 18
+    position: {x: 4, y: 0}
+    isBoss: 0
+    appearAtTurn: -1
+    targetable: 1
+  encounterDataPath: Assets/ScriptableObjects/Battles/DemoBattle3_DarkCastle
+  clearConditions:
+  - type: 1
+    param1: 15
+    param2: 0
+    description: "\u6253\u8D25\u6B7B\u4EA1\u9A91\u58EB\u957F
+  starConditions:
+  - stars: 1
+    condition:
+      type: 1
+      param1: 15
+      param2: 0
+      description: "\u6253\u8D25BOSS
+    achieved: 0
+  - stars: 2
+    condition:
+      type: 3
+      param1: 25
+      param2: 0
+      description: 25\u56DE\u5408\u5185\u6253\u8D25BOSS
+    achieved: 0
+  - stars: 3
+    condition:
+      type: 4
+      param1: 0
+      param2: 0
+      description: "\u4E0D\u635F\u5931\u5355\u4F4D\u6253\u8D25BOSS
+    achieved: 0
+  baseReward:
+    exp: 500
+    gold: 1000
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  firstClearReward:
+    exp: 1000
+    gold: 2000
+    itemIds:
+    - 301
+    - 207
+    - 601
+    itemCounts:
+    - 2
+    - 10
+    - 5
+    itemDropRates: []
+  perfectClearReward:
+    exp: 700
+    gold: 1500
+    itemIds: []
+    itemCounts: []
+    itemDropRates: []
+  bonusDrops:
+  - itemId: 101
+    itemName: "\u91D1\u5E01
+    minCount: 200
+    maxCount: 500
+    dropRate: 100
+    guaranteed: 1
+  - itemId: 207
+    itemName: "\u9ED1\u6697\u9A91\u58EB\u788E\u7247
+    minCount: 5
+    maxCount: 15
+    dropRate: 60
+    guaranteed: 0
+  isStoryStage: 1
+  preBattleDialogueId: 10241
+  postBattleDialogueId: 10242
+  victoryDialogueId: 10243
+  battleScenePath: Scenes/Battle/DarkCastle
+  backgroundPath: Backgrounds/DarkCastle
+  bgmPath: BGM/Battle_DarkLord
+  autoBattleEnabled: 0
+  itemUsageEnabled: 1
+  supportEnabled: 1
+  nextStageId: 10301
+  unlockHint: "\u901A\u5173\u7B2C\u56DB\u5173\uFF0C\u7B2C\u4E8C\u7AE0\u5B8C\u7ED3

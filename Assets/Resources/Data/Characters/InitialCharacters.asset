@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d7, type: 3}
+  m_Name: InitialCharacters
+  m_EditorClassIdentifier: 
+  characters:
+  - characterId: 1001
+    characterName: "\u57C3\u5C14\u6587"
+    description: "\u51FA\u8EAB\u4E8E\u5317\u5883\u7684\u5E74\u8F7B\u5251\u58EB\uFF0C\u6B63\u4E49\u611F\u5F3A\u70C8\uFF0C\u68A6\u60F3\u6210\u4E3A\u4FDD\u62A4\u5F31\u8005\u7684\u9A91\u58EB\u3002"
+    rarity: 3
+    race: 0
+    characterClass: 0
+    element: 7
+    baseHP: 120
+    baseMP: 40
+    baseAttack: 25
+    baseDefense: 18
+    baseMagicAtk: 10
+    baseMagicDef: 12
+    baseSpeed: 12
+    baseLuck: 8
+    hpGrowth: 12
+    mpGrowth: 3
+    atkGrowth: 2.5
+    defGrowth: 2
+    matkGrowth: 1
+    mdefGrowth: 1.5
+    spdGrowth: 0.6
+    lukGrowth: 0.4
+    skillIds: 10001, 10002, 10003
+    ultimateSkillId: 19001
+    passiveSkillId: 18001
+    raceSkillId: 17001
+    breakthroughItemId: 5001
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1002
+    characterName: "\u585E\u857E\u5A1C"
+    description: "\u6E29\u67D4\u7684\u5929\u4F7F\u65CF\u6DF7\u8840\u513F\uFF0C\u6210\u4E3A\u4E86\u5723\u5973\uFF0C\u5374\u5BF9\u81EA\u5DF1\u7684\u8EAB\u4EFD\u611F\u5230\u8FF7\u832B..."
+    rarity: 3
+    race: 0
+    characterClass: 2
+    element: 7
+    baseHP: 80
+    baseMP: 80
+    baseAttack: 12
+    baseDefense: 10
+    baseMagicAtk: 28
+    baseMagicDef: 25
+    baseSpeed: 10
+    baseLuck: 12
+    hpGrowth: 8
+    mpGrowth: 8
+    atkGrowth: 1
+    defGrowth: 1
+    matkGrowth: 3
+    mdefGrowth: 2.5
+    spdGrowth: 0.5
+    lukGrowth: 0.6
+    skillIds: 20001, 20002, 20003
+    ultimateSkillId: 19002
+    passiveSkillId: 18002
+    raceSkillId: 17001
+    breakthroughItemId: 5001
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1003
+    characterName: "\u51EF\u6069"
+    description: "\u5E1D\u56FD\u9A91\u58EB\uFF0C\u50B2\u5A07\u4F46\u5FC3\u5730\u5584\u826F\uFF0C\u5BF9\u4E3B\u89D2\u6709\u504F\u89C1\u4F46\u9010\u6E10\u6539\u89C2..."
+    rarity: 2
+    race: 0
+    characterClass: 5
+    element: 7
+    baseHP: 150
+    baseMP: 30
+    baseAttack: 22
+    baseDefense: 25
+    baseMagicAtk: 8
+    baseMagicDef: 18
+    baseSpeed: 8
+    baseLuck: 6
+    hpGrowth: 15
+    mpGrowth: 2
+    atkGrowth: 2.2
+    defGrowth: 2.5
+    matkGrowth: 0.8
+    mdefGrowth: 1.8
+    spdGrowth: 0.4
+    lukGrowth: 0.3
+    skillIds: 30001, 30002
+    ultimateSkillId: 19003
+    passiveSkillId: 18003
+    raceSkillId: 17001
+    breakthroughItemId: 5002
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1004
+    characterName: "\u96F7\u6069"
+    description: "\u517D\u4EBA\u65CF\u730E\u4EBA\uFF0C\u8C6A\u723D\u76F4\u7387\uFF0C\u70ED\u7231\u81EA\u7531\u548C\u7F8E\u98DF\u3002"
+    rarity: 2
+    race: 1
+    characterClass: 3
+    element: 3
+    baseHP: 100
+    baseMP: 35
+    baseAttack: 28
+    baseDefense: 12
+    baseMagicAtk: 15
+    baseMagicDef: 10
+    baseSpeed: 18
+    baseLuck: 10
+    hpGrowth: 10
+    mpGrowth: 3
+    atkGrowth: 3
+    defGrowth: 1.2
+    matkGrowth: 1.5
+    mdefGrowth: 1
+    spdGrowth: 0.9
+    lukGrowth: 0.5
+    skillIds: 40001, 40002
+    ultimateSkillId: 19004
+    passiveSkillId: 18004
+    raceSkillId: 17002
+    breakthroughItemId: 5002
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1005
+    characterName: "\u8389\u8389\u4E1D"
+    description: "\u5438\u8840\u9B3C\u5973\u738B\uFF0C\u9AD8\u50B2\u51B7\u6F20\u5374\u5185\u5FC3\u5B64\u72EC\uFF0C\u5DF2\u6D3B\u4E86\u6570\u5343\u5E74..."
+    rarity: 3
+    race: 2
+    characterClass: 6
+    element: 8
+    baseHP: 90
+    baseMP: 60
+    baseAttack: 18
+    baseDefense: 8
+    baseMagicAtk: 35
+    baseMagicDef: 20
+    baseSpeed: 20
+    baseLuck: 15
+    hpGrowth: 9
+    mpGrowth: 6
+    atkGrowth: 1.8
+    defGrowth: 0.8
+    matkGrowth: 3.5
+    mdefGrowth: 2
+    spdGrowth: 1
+    lukGrowth: 0.8
+    skillIds: 50001, 50002, 50003
+    ultimateSkillId: 19005
+    passiveSkillId: 18005
+    raceSkillId: 17003
+    breakthroughItemId: 5001
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1006
+    characterName: "\u7EB3\u83F2\u5C14"
+    description: "\u6C99\u6D77\u738B\u56FD\u7684\u516C\u4E3B\uFF0C\u72EC\u7ACB\u575A\u5F3A\uFF0C\u4E0D\u613F\u88AB\u4FDD\u62A4\uFF0C\u6E34\u671B\u81EA\u7531..."
+    rarity: 2
+    race: 1
+    characterClass: 6
+    element: 4
+    baseHP: 85
+    baseMP: 50
+    baseAttack: 20
+    baseDefense: 10
+    baseMagicAtk: 25
+    baseMagicDef: 15
+    baseSpeed: 22
+    baseLuck: 14
+    hpGrowth: 8.5
+    mpGrowth: 5
+    atkGrowth: 2
+    defGrowth: 1
+    matkGrowth: 2.5
+    mdefGrowth: 1.5
+    spdGrowth: 1.1
+    lukGrowth: 0.7
+    skillIds: 60001, 60002
+    ultimateSkillId: 19006
+    passiveSkillId: 18006
+    raceSkillId: 17002
+    breakthroughItemId: 5002
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1007
+    characterName: "\u4F0A\u8299\u7433"
+    description: "\u9B54\u4EBA\u65CF\u6700\u5E74\u8F7B\u7684\u9B54\u738B\uFF0C\u4E3B\u5F20\u4E0E\u8868\u5927\u9646\u548C\u5E73\u5171\u5904\uFF0C\u4E0E\u4E3B\u89D2\u6709\u5FAE\u5999\u7684\u8FDE\u7ED3..."
+    rarity: 3
+    race: 4
+    characterClass: 7
+    element: 8
+    baseHP: 75
+    baseMP: 90
+    baseAttack: 10
+    baseDefense: 8
+    baseMagicAtk: 40
+    baseMagicDef: 30
+    baseSpeed: 15
+    baseLuck: 18
+    hpGrowth: 7.5
+    mpGrowth: 9
+    atkGrowth: 1
+    defGrowth: 0.8
+    matkGrowth: 4
+    mdefGrowth: 3
+    spdGrowth: 0.75
+    lukGrowth: 0.9
+    skillIds: 70001, 70002, 70003
+    ultimateSkillId: 19007
+    passiveSkillId: 18007
+    raceSkillId: 17005
+    breakthroughItemId: 5001
+    breakthroughCounts: 5, 10, 20, 40, 80
+  - characterId: 1008
+    characterName: "\u8DEF\u897F\u6CD5"
+    description: "\u5815\u5929\u4F7F\uFF0C\u66FE\u662F\u5929\u4F7F\u738B\u7684\u5DE6\u53F3\u624B\uFF0C\u56E0\u53D1\u73B0\u79D8\u5BC6\u800C\u88AB\u5265\u593A\u7FC5\u8180\uFF0C\u56DA\u7981\u4E8E\u5760\u843D\u4E4B\u5D16..."
+    rarity: 3
+    race: 3
+    characterClass: 10
+    element: 7
+    baseHP: 100
+    baseMP: 70
+    baseAttack: 15
+    baseDefense: 12
+    baseMagicAtk: 38
+    baseMagicDef: 35
+    baseSpeed: 12
+    baseLuck: 20
+    hpGrowth: 10
+    mpGrowth: 7
+    atkGrowth: 1.5
+    defGrowth: 1.2
+    matkGrowth: 3.8
+    mdefGrowth: 3.5
+    spdGrowth: 0.6
+    lukGrowth: 1
+    skillIds: 80001, 80002, 80003
+    ultimateSkillId: 19008
+    passiveSkillId: 18008
+    raceSkillId: 17004
+    breakthroughItemId: 5001
+    breakthroughCounts: 5, 10, 20, 40, 80

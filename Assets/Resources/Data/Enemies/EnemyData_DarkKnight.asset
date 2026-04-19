@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6d2d4e5e84d4a3eb5f65b7e3f0d8e9, type: 3}
+  m_Name: EnemyData_DarkKnight
+  m_EditorClassIdentifier: 
+  enemyId: 2004
+  enemyName: "\u9ED1\u6697\u9A91\u58EB"
+  description: "\u9677\u843D\u7684\u9ED1\u6697\u9A91\u58EB\u56E2\u6218\u58EB\u3002\u4ED6\u4EEC\u5DF2\u7ECF\u4E22\u5F03\u4E86\u624D\u80FD\u548C\u4FE1\u5FF5\uFF0C\u53EA\u5269\u4E0B\u5B8C\u6574\u7684\u6B7B\u4EA1\u4E4B\u8FBE\u3002"
+  enemyType: 1
+  element: 5
+  baseHP: 2500
+  baseMP: 150
+  baseAttack: 180
+  baseDefense: 120
+  baseMagicAtk: 100
+  baseMagicDef: 100
+  baseSpeed: 60
+  skillIds: []
+  ultimateSkillId: 0
+  passiveSkillIds: []
+  aiType: 1
+  aggressionLevel: 0.85
+  prefabPath: "Enemies/DarkKnight/DarkKnightPrefab"
+  portraitPath: "Enemies/DarkKnight/DarkKnightPortrait"
